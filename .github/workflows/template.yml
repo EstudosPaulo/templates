@@ -1,11 +1,9 @@
-name: Template Deploy
-
 on:
   workflow_call:
-  inputs:
-    nome:
-      required: true
-      type: string
+    inputs:
+      nome:
+        required: true
+        type: string
 
 #=======================
 # Test Automatizados
