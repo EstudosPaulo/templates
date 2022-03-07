@@ -6,8 +6,8 @@ on:
         type: string
 
 jobs:
-  test:     
-    name: test
+  templ-test:     
+    name: templ
     runs-on: ubuntu-latest
 
     steps:
